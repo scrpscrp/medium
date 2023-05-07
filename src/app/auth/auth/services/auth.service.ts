@@ -1,9 +1,11 @@
-import { CurrentUserInterface } from './../../../shared/types/currentUser.interface';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { RegisterRequestInterface } from 'src/app/shared/types/registerRequest.interface';
+
 import { Observable, map } from 'rxjs';
 import { AuthResponseInterface } from 'src/app/shared/types/authResponse.interface';
+import { CurrentUserInterface } from 'src/app/shared/types/currentUser.interface';
+import { RegisterRequestInterface } from 'src/app/shared/types/registerRequest.interface';
+
 
 @Injectable({
   providedIn: 'root'
